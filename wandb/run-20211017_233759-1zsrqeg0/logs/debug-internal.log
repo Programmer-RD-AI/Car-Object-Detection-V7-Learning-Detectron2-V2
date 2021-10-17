@@ -1,0 +1,195 @@
+2021-10-17 23:38:00,235 INFO    MainThread:49449 [internal.py:wandb_internal():62] W&B internal server running at pid: 49449
+2021-10-17 23:38:00,237 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:00,237 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: login
+2021-10-17 23:38:00,238 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:00,242 DEBUG   SenderThread:49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:00,742 DEBUG   SenderThread:49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:00,744 INFO    SenderThread:49449 [sender.py:send_request_login():135] Login server info: {'cliVersionInfo': {'min_cli_version': '0.8.20', 'max_cli_version': '0.12.4'}}
+2021-10-17 23:38:00,752 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: header
+2021-10-17 23:38:00,753 INFO    WriterThread:49449 [datastore.py:open_for_write():76] open: wandb/run-20211017_233759-1zsrqeg0/run-1zsrqeg0.wandb
+2021-10-17 23:38:00,753 DEBUG   SenderThread:49449 [sender.py:send():89] send: header
+2021-10-17 23:38:00,753 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:00,754 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: check_version
+2021-10-17 23:38:00,757 DEBUG   HandlerThread:49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): pypi.org:443
+2021-10-17 23:38:00,994 DEBUG   HandlerThread:49449 [connectionpool.py:_make_request():452] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 60763
+2021-10-17 23:38:01,069 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: run
+2021-10-17 23:38:01,069 DEBUG   SenderThread:49449 [sender.py:send():89] send: run
+2021-10-17 23:38:01,071 DEBUG   SenderThread:49449 [git.py:repo():30] git repository is invalid
+2021-10-17 23:38:01,077 DEBUG   SenderThread:49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:01,587 DEBUG   SenderThread:49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:01,591 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:01,591 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: run_start
+2021-10-17 23:38:01,593 INFO    SenderThread:49449 [dir_watcher.py:__init__():149] watching files in: wandb/run-20211017_233759-1zsrqeg0/files
+2021-10-17 23:38:01,593 INFO    SenderThread:49449 [sender.py:send_run():414] run started: 1zsrqeg0 with start time 1634494080
+2021-10-17 23:38:01,600 DEBUG   HandlerThread:49449 [git.py:repo():30] git repository is invalid
+2021-10-17 23:38:01,703 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: files
+2021-10-17 23:38:01,703 DEBUG   SenderThread:49449 [sender.py:send():89] send: files
+2021-10-17 23:38:01,703 INFO    SenderThread:49449 [sender.py:_save_file():495] saving file wandb-metadata.json with policy now
+2021-10-17 23:38:01,707 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:01,708 DEBUG   Thread-10 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:01,708 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: status
+2021-10-17 23:38:01,708 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:01,711 DEBUG   SenderThread:49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:02,197 DEBUG   Thread-10 :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:02,203 DEBUG   Thread-10 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-17 23:38:02,267 DEBUG   SenderThread:49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:02,594 INFO    Thread-7  :49449 [dir_watcher.py:_on_file_created():188] file/dir created: wandb/run-20211017_233759-1zsrqeg0/files/output.log
+2021-10-17 23:38:02,594 INFO    Thread-7  :49449 [dir_watcher.py:_on_file_created():188] file/dir created: wandb/run-20211017_233759-1zsrqeg0/files/wandb-metadata.json
+2021-10-17 23:38:02,595 INFO    Thread-7  :49449 [dir_watcher.py:_on_file_created():188] file/dir created: wandb/run-20211017_233759-1zsrqeg0/files/requirements.txt
+2021-10-17 23:38:02,789 DEBUG   Thread-10 :49449 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/wandb-metadata.json?Expires=1634580482&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=uu02jYZQjrXjx41t7TT9mSO%2FPtIL%2BsoiJJnObZZU42b5S18Phut%2FB4zjFdiQY0Vcj365qvznn%2BffZ7yO2bKb5gBKqWFCOzfMowSybY9aufD2J7mx4qwThPW3f%2B3kMVcQTw9wWu9DN7n5W1ZGb6zoRrpc%2FvPXiF88ZAGHn73eBar6SRJyAzzUNf1jwcEkBJOTrqiIG%2FDu6WGN8Jn3iKxVw%2BxEXf0YW1WZmhdVmtPvtDgVF9VxUORPShS%2F1q5bJ0rgFldm82mPgIK1vu28vpnxHnhRMddCct9GhBMPcuzkmThiC7C7gLh80K4U8hSOYKGRH8HTsQfntsMOV%2FfdUuqazA%3D%3D HTTP/1.1" 200 0
+2021-10-17 23:38:02,790 INFO    Thread-10 :49449 [upload_job.py:push():112] Uploaded file /tmp/tmp85_ekvytwandb/ayi501f5-wandb-metadata.json
+2021-10-17 23:38:04,744 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: output
+2021-10-17 23:38:04,745 DEBUG   SenderThread:49449 [sender.py:send():89] send: output
+2021-10-17 23:38:04,749 DEBUG   Thread-4  :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:04,749 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: output
+2021-10-17 23:38:04,749 DEBUG   SenderThread:49449 [sender.py:send():89] send: output
+2021-10-17 23:38:04,756 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: output
+2021-10-17 23:38:04,757 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: output
+2021-10-17 23:38:04,757 DEBUG   SenderThread:49449 [sender.py:send():89] send: output
+2021-10-17 23:38:04,757 DEBUG   SenderThread:49449 [sender.py:send():89] send: output
+2021-10-17 23:38:04,765 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: output
+2021-10-17 23:38:04,765 DEBUG   SenderThread:49449 [sender.py:send():89] send: output
+2021-10-17 23:38:04,909 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:04,909 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: pause
+2021-10-17 23:38:04,909 INFO    HandlerThread:49449 [handler.py:handle_request_pause():229] stopping system metrics thread
+2021-10-17 23:38:04,961 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: stats
+2021-10-17 23:38:04,962 DEBUG   SenderThread:49449 [sender.py:send():89] send: stats
+2021-10-17 23:38:05,429 DEBUG   Thread-4  :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/file_stream HTTP/1.1" 200 None
+2021-10-17 23:38:05,594 INFO    Thread-7  :49449 [dir_watcher.py:_on_file_modified():201] file/dir modified: wandb/run-20211017_233759-1zsrqeg0/files/output.log
+2021-10-17 23:38:07,842 DEBUG   Thread-4  :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/file_stream HTTP/1.1" 200 None
+2021-10-17 23:38:16,652 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:16,652 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: resume
+2021-10-17 23:38:16,652 INFO    HandlerThread:49449 [handler.py:handle_request_resume():224] starting system metrics thread
+2021-10-17 23:38:16,653 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:16,653 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: pause
+2021-10-17 23:38:16,653 INFO    HandlerThread:49449 [handler.py:handle_request_pause():229] stopping system metrics thread
+2021-10-17 23:38:16,674 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: stats
+2021-10-17 23:38:16,674 DEBUG   SenderThread:49449 [sender.py:send():89] send: stats
+2021-10-17 23:38:16,825 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:16,826 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: resume
+2021-10-17 23:38:16,826 INFO    HandlerThread:49449 [handler.py:handle_request_resume():224] starting system metrics thread
+2021-10-17 23:38:16,826 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:16,826 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: pause
+2021-10-17 23:38:16,826 INFO    HandlerThread:49449 [handler.py:handle_request_pause():229] stopping system metrics thread
+2021-10-17 23:38:16,847 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: stats
+2021-10-17 23:38:16,847 DEBUG   SenderThread:49449 [sender.py:send():89] send: stats
+2021-10-17 23:38:16,997 DEBUG   Thread-4  :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/file_stream HTTP/1.1" 200 None
+2021-10-17 23:38:17,270 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:17,270 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: status
+2021-10-17 23:38:17,270 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:17,275 DEBUG   SenderThread:49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:17,909 DEBUG   SenderThread:49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:19,187 WARNING MainThread:49449 [internal.py:wandb_internal():116] Internal process interrupt: 1
+2021-10-17 23:38:19,192 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: exit
+2021-10-17 23:38:19,192 DEBUG   SenderThread:49449 [sender.py:send():89] send: exit
+2021-10-17 23:38:19,193 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,193 INFO    SenderThread:49449 [sender.py:send_exit():147] handling exit code: 0
+2021-10-17 23:38:19,193 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: poll_exit
+2021-10-17 23:38:19,193 INFO    SenderThread:49449 [sender.py:send_exit():155] send defer
+2021-10-17 23:38:19,193 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,193 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,193 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:19,193 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 0
+2021-10-17 23:38:19,194 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,194 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 0
+2021-10-17 23:38:19,194 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 1
+2021-10-17 23:38:19,194 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,194 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:19,194 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 1
+2021-10-17 23:38:19,194 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,195 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 1
+2021-10-17 23:38:19,195 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 2
+2021-10-17 23:38:19,195 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,195 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:19,195 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 2
+2021-10-17 23:38:19,195 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,195 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 2
+2021-10-17 23:38:19,195 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 3
+2021-10-17 23:38:19,195 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,195 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:19,195 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 3
+2021-10-17 23:38:19,195 DEBUG   SenderThread:49449 [sender.py:send():89] send: summary
+2021-10-17 23:38:19,196 INFO    SenderThread:49449 [sender.py:_save_file():495] saving file wandb-summary.json with policy end
+2021-10-17 23:38:19,196 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,196 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 3
+2021-10-17 23:38:19,196 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 4
+2021-10-17 23:38:19,196 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,196 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:19,196 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 4
+2021-10-17 23:38:19,196 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,196 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 4
+2021-10-17 23:38:19,196 INFO    SenderThread:49449 [dir_watcher.py:finish():253] shutting down directory watcher
+2021-10-17 23:38:19,362 DEBUG   Thread-4  :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/file_stream HTTP/1.1" 200 None
+2021-10-17 23:38:19,597 INFO    SenderThread:49449 [dir_watcher.py:finish():282] scan: wandb/run-20211017_233759-1zsrqeg0/files
+2021-10-17 23:38:19,597 INFO    SenderThread:49449 [dir_watcher.py:finish():288] scan save: wandb/run-20211017_233759-1zsrqeg0/files/requirements.txt requirements.txt
+2021-10-17 23:38:19,597 INFO    SenderThread:49449 [dir_watcher.py:finish():288] scan save: wandb/run-20211017_233759-1zsrqeg0/files/wandb-metadata.json wandb-metadata.json
+2021-10-17 23:38:19,597 INFO    SenderThread:49449 [dir_watcher.py:finish():288] scan save: wandb/run-20211017_233759-1zsrqeg0/files/output.log output.log
+2021-10-17 23:38:19,597 INFO    SenderThread:49449 [dir_watcher.py:finish():288] scan save: wandb/run-20211017_233759-1zsrqeg0/files/wandb-summary.json wandb-summary.json
+2021-10-17 23:38:19,598 INFO    SenderThread:49449 [dir_watcher.py:finish():288] scan save: wandb/run-20211017_233759-1zsrqeg0/files/config.yaml config.yaml
+2021-10-17 23:38:19,598 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 5
+2021-10-17 23:38:19,606 DEBUG   Thread-14 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:19,607 DEBUG   Thread-13 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:19,611 DEBUG   Thread-15 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:19,614 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,614 DEBUG   Thread-16 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-17 23:38:19,615 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:19,615 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 5
+2021-10-17 23:38:19,615 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,615 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 5
+2021-10-17 23:38:19,616 INFO    SenderThread:49449 [file_pusher.py:finish():139] shutting down file pusher
+2021-10-17 23:38:19,616 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 6
+2021-10-17 23:38:19,616 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:19,616 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:19,616 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 6
+2021-10-17 23:38:19,616 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:19,616 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 6
+2021-10-17 23:38:19,943 DEBUG   Thread-4  :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/file_stream HTTP/1.1" 200 None
+2021-10-17 23:38:20,077 DEBUG   Thread-13 :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:20,083 DEBUG   Thread-13 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-17 23:38:20,092 DEBUG   Thread-16 :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:20,098 DEBUG   Thread-16 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-17 23:38:20,133 DEBUG   Thread-15 :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:20,139 DEBUG   Thread-15 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-17 23:38:20,142 DEBUG   Thread-14 :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-17 23:38:20,148 DEBUG   Thread-14 :49449 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-17 23:38:20,258 DEBUG   Thread-4  :49449 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/file_stream HTTP/1.1" 200 None
+2021-10-17 23:38:20,259 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 7
+2021-10-17 23:38:20,260 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:20,260 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:20,260 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 7
+2021-10-17 23:38:20,260 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:20,260 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 7
+2021-10-17 23:38:20,260 INFO    SenderThread:49449 [sender.py:send_request_defer():200] send defer: 8
+2021-10-17 23:38:20,261 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: final
+2021-10-17 23:38:20,261 DEBUG   SenderThread:49449 [sender.py:send():89] send: final
+2021-10-17 23:38:20,261 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: footer
+2021-10-17 23:38:20,261 DEBUG   SenderThread:49449 [sender.py:send():89] send: footer
+2021-10-17 23:38:20,261 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:20,261 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: defer
+2021-10-17 23:38:20,261 INFO    HandlerThread:49449 [handler.py:handle_request_defer():70] handle defer: 8
+2021-10-17 23:38:20,261 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:20,262 INFO    SenderThread:49449 [sender.py:send_request_defer():164] handle sender defer: 8
+2021-10-17 23:38:20,636 DEBUG   Thread-13 :49449 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/requirements.txt?Expires=1634580499&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=U2JeDqq6TeuX1UACeNVsf8%2F2OrdZOe3GG9nDcuT9vsZhLBr1h6OcfYia19MigYgCfqjYHZ4sQcC6uCJzvKHOqzaJHa4chi08W85yaBP%2F%2FIEDJQexKA10hTdhBy4xfdbwHH1I%2BfkCdXo08Wn16HTPAM8OOpUsCF6UF3akTWASCdLST9o3zIDSmM5lnE%2FO8CwTUF5BsO8RjAeCN4QBnuLxCAPDw3Z4WuwlZQOL7%2F%2FJ1sFQH6eSXedEoN1Xbeb58DOj%2Bya4UE0VgzwYM69lGOdJa4LhZ0rnGspz5vNy%2F8uUImPZ%2BaYTTz%2BFFVc8Oim7VJ71G3MPtcMSj5XIWr6owKnf%2Bw%3D%3D HTTP/1.1" 200 0
+2021-10-17 23:38:20,637 INFO    Thread-13 :49449 [upload_job.py:push():112] Uploaded file wandb/run-20211017_233759-1zsrqeg0/files/requirements.txt
+2021-10-17 23:38:20,731 DEBUG   Thread-16 :49449 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/config.yaml?Expires=1634580499&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=h%2FG1FCJN6fguJgx82YB7NF3X9OuHotrxF%2F3tqeaE2E%2BpmpRoPzS1de34sFUQ5yFMElmxglJ%2FX%2BnPch5YkTonOuLZhH2f%2BTO4OGlY2z65cC7DJZY9FnE5F8qPC7fhnkWqmCOrfnP6iU09VSMR8VIZZMgKqJ6qURN4KSYh6EaoeElyRdH3JumvHYuMU%2BsXTjHED1%2Br8iug7ltYkVrjc0ZEd6ndBQjQQyDOXUjWiDEwHhF8nz%2FB63o%2Btw49Jtbrmeo%2B3MBfcLebp5Io7JMcsHBus81tby4KubXkCAttY4NpVmvQXxhsD%2FxZ%2BMt2jbCaEYvyauTSeF9ZmGQOpypp35JX7g%3D%3D HTTP/1.1" 200 0
+2021-10-17 23:38:20,732 INFO    Thread-16 :49449 [upload_job.py:push():112] Uploaded file wandb/run-20211017_233759-1zsrqeg0/files/config.yaml
+2021-10-17 23:38:20,778 DEBUG   Thread-15 :49449 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/wandb-summary.json?Expires=1634580499&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=xSlf4bQg68JvkxaAYqBRqfcODp3hP%2FYx4TLnE%2FPs4hfp4l6Pa6RvSpy1DiD%2FAFmFcYV6QG%2FRhlqb%2Fzy0114gCz83yRt8z87X2XJ%2F%2Fkj0U6UOJ2VgIVKnlHQsHcxQzZ6b5f8UOktlmnTygzQlZBRPjb34tTtO%2BRUg3RKldWbW0Db2Xh9c8fiF%2F3SPvdlSTTH6AkpQQaEh1EIDyo5XEoqnM7JTAxzg8MpZDKcT5vhVPkCUlL7PL8YYS77Sn128wbGjqsGXSkTEewy3HEMsV1oE9lmSDDbvpnK9zS%2F7H02NLnFFGlkHy14htrDyIquiciVM7my7zSj8oYFVS7cH%2BHY64Q%3D%3D HTTP/1.1" 200 0
+2021-10-17 23:38:20,779 INFO    Thread-15 :49449 [upload_job.py:push():112] Uploaded file wandb/run-20211017_233759-1zsrqeg0/files/wandb-summary.json
+2021-10-17 23:38:20,862 DEBUG   Thread-14 :49449 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Car-Object-Detection-V7-Learning-Detectron2-V2/1zsrqeg0/output.log?Expires=1634580499&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=p%2FEQ8vF3oM%2BNHGaF0cNxy0qbOUytc83F77SyHGxHf4PznO0pppzjpipWxLb9f7vAAuD%2FvxJN3EVMztwWlpYJ8C0077V%2BK4fMzAribVzBl3bl4NblSjMQiZN7MciuuPi8%2FUnTECuhSXaqLAHJfi0qE2ljimsCgsF9QfHfB8JHNKd07Oj3gLd9NF0sBXBhx4wGokBnp3%2BXZRuMkTSVRpsXmwBosWGyip%2B2dALRYgIA%2Bsf0pHV2Mq12ICNYZmWXaG4Y5FGthvEzDpiI4jvX7gQnThOWFBxea5uBMKQRxGH9MS%2BHE770kb%2B7lCoq7%2B1uLfDChhh1GFWoyY4JiQ8%2BA6rJ5w%3D%3D HTTP/1.1" 200 0
+2021-10-17 23:38:20,863 INFO    Thread-14 :49449 [upload_job.py:push():112] Uploaded file wandb/run-20211017_233759-1zsrqeg0/files/output.log
+2021-10-17 23:38:21,197 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:21,197 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: poll_exit
+2021-10-17 23:38:21,197 DEBUG   SenderThread:49449 [sender.py:send():89] send: request
+2021-10-17 23:38:21,197 INFO    SenderThread:49449 [file_pusher.py:join():144] waiting for file pusher
+2021-10-17 23:38:21,200 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:21,200 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: get_summary
+2021-10-17 23:38:21,201 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:21,201 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: sampled_history
+2021-10-17 23:38:21,202 DEBUG   HandlerThread:49449 [handler.py:handle():47] handle: request
+2021-10-17 23:38:21,202 DEBUG   HandlerThread:49449 [handler.py:handle_request():56] handle_request: shutdown
+2021-10-17 23:38:21,202 INFO    HandlerThread:49449 [handler.py:finish():274] shutting down handler
+2021-10-17 23:38:21,261 INFO    WriterThread:49449 [datastore.py:close():257] close: wandb/run-20211017_233759-1zsrqeg0/run-1zsrqeg0.wandb
+2021-10-17 23:38:22,198 INFO    SenderThread:49449 [sender.py:finish():536] shutting down sender
+2021-10-17 23:38:22,198 INFO    SenderThread:49449 [file_pusher.py:finish():139] shutting down file pusher
+2021-10-17 23:38:22,198 INFO    SenderThread:49449 [file_pusher.py:join():144] waiting for file pusher
+2021-10-17 23:38:22,199 INFO    MainThread:49449 [internal.py:handle_exit():137] Internal process exited

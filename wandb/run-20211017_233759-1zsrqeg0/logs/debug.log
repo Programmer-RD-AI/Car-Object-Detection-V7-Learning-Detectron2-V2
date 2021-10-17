@@ -1,0 +1,48 @@
+2021-10-17 23:37:59,792 INFO    MainThread:49419 [wandb_init.py:_log_setup():307] Logging user logs to wandb/run-20211017_233759-1zsrqeg0/logs/debug.log
+2021-10-17 23:37:59,793 INFO    MainThread:49419 [wandb_init.py:_log_setup():308] Logging internal logs to wandb/run-20211017_233759-1zsrqeg0/logs/debug-internal.log
+2021-10-17 23:37:59,793 INFO    MainThread:49419 [wandb_setup.py:_flush():68] enabling code saving by default
+2021-10-17 23:37:59,793 INFO    MainThread:49419 [wandb_setup.py:_flush():68] setting env: {}
+2021-10-17 23:37:59,793 INFO    MainThread:49419 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2021-10-17 23:37:59,793 WARNING MainThread:49419 [wandb_setup.py:_flush():68] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-17 23:37:59,793 INFO    MainThread:49419 [wandb_setup.py:_flush():68] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f0df3126730>
+2021-10-17 23:37:59,814 WARNING MainThread:49419 [wandb_setup.py:__init__():213] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-17 23:38:01,707 INFO    MainThread:49419 [wandb_run.py:_console_start():1103] atexit reg
+2021-10-17 23:38:01,707 INFO    MainThread:49419 [wandb_run.py:_redirect():978] redirect: SettingsConsole.WRAP
+2021-10-17 23:38:01,708 INFO    MainThread:49419 [wandb_run.py:_redirect():1009] Wrapping output streams.
+2021-10-17 23:38:01,708 INFO    MainThread:49419 [wandb_run.py:_redirect():1025] Redirects installed.
+2021-10-17 23:38:04,908 INFO    MainThread:49419 [wandb_init.py:_pause_backend():229] pausing backend
+2021-10-17 23:38:16,650 INFO    MainThread:49419 [wandb_init.py:_resume_backend():234] resuming backend
+2021-10-17 23:38:16,651 INFO    MainThread:49419 [wandb_init.py:_pause_backend():229] pausing backend
+2021-10-17 23:38:16,824 INFO    MainThread:49419 [wandb_init.py:_resume_backend():234] resuming backend
+2021-10-17 23:38:16,825 INFO    MainThread:49419 [wandb_init.py:_pause_backend():229] pausing backend
+2021-10-17 23:38:19,190 INFO    MainThread:49419 [wandb_run.py:_atexit_cleanup():1081] got exitcode: 0
+2021-10-17 23:38:19,190 INFO    MainThread:49419 [wandb_run.py:_restore():1053] restore
+2021-10-17 23:38:19,193 INFO    MainThread:49419 [wandb_run.py:_wait_for_finish():1185] got exit ret: uuid: "de1dd15a789947c2b4cff497d1847c9d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 620
+      total_bytes: 620
+    }
+  }
+}
+
+2021-10-17 23:38:21,198 INFO    MainThread:49419 [wandb_run.py:_wait_for_finish():1185] got exit ret: uuid: "1a39fded3f484c60a6653752c69691f4"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 16583
+      total_bytes: 16583
+    }
+  }
+}
+

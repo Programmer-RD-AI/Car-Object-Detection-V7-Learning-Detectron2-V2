@@ -1,0 +1,56 @@
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_init.py:_log_setup():307] Logging user logs to wandb/run-20211017_233701-16xcrrl7/logs/debug.log
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_init.py:_log_setup():308] Logging internal logs to wandb/run-20211017_233701-16xcrrl7/logs/debug-internal.log
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_setup.py:_flush():68] enabling code saving by default
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_setup.py:_flush():68] setting env: {}
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2021-10-17 23:37:01,603 WARNING MainThread:36025 [wandb_setup.py:_flush():68] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_setup.py:_flush():68] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f9d16373550>
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_run.py:finish():864] finishing run Car-Object-Detection-V7-Learning-Detectron2-V2/2p5qwg16
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_init.py:_jupyter_teardown():239] cleaning up jupyter logic
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [jupyter.py:save_history():200] not saving jupyter history
+2021-10-17 23:37:01,603 INFO    MainThread:36025 [wandb_run.py:_atexit_cleanup():1081] got exitcode: 0
+2021-10-17 23:37:01,604 INFO    MainThread:36025 [wandb_run.py:_restore():1053] restore
+2021-10-17 23:37:01,607 INFO    MainThread:36025 [wandb_run.py:_wait_for_finish():1185] got exit ret: uuid: "74061b38679f48bca79f22201a4252f6"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 620
+      total_bytes: 620
+    }
+  }
+}
+
+2021-10-17 23:37:03,610 INFO    MainThread:36025 [wandb_run.py:_wait_for_finish():1185] got exit ret: uuid: "a0c742ebc3694bb89952b9ec1b326cae"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 4
+    }
+    pusher_stats {
+      uploaded_bytes: 5676
+      total_bytes: 5676
+    }
+  }
+}
+
+2021-10-17 23:37:04,753 INFO    MainThread:36025 [wandb_run.py:_show_files():1332] logging synced files
+2021-10-17 23:37:04,766 WARNING MainThread:36025 [wandb_setup.py:__init__():213] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-17 23:37:06,613 INFO    MainThread:36025 [wandb_run.py:_console_start():1103] atexit reg
+2021-10-17 23:37:06,613 INFO    MainThread:36025 [wandb_run.py:_redirect():978] redirect: SettingsConsole.WRAP
+2021-10-17 23:37:06,613 INFO    MainThread:36025 [wandb_run.py:_redirect():1009] Wrapping output streams.
+2021-10-17 23:37:06,613 INFO    MainThread:36025 [wandb_run.py:_redirect():1025] Redirects installed.
+2021-10-17 23:37:21,131 INFO    MainThread:36025 [wandb_init.py:_jupyter_setup():260] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f9d1ce8ceb0>
+2021-10-17 23:37:21,133 INFO    MainThread:36025 [wandb_init.py:_log_setup():307] Logging user logs to wandb/run-20211017_233721-1ve73uih/logs/debug.log
+2021-10-17 23:37:21,133 INFO    MainThread:36025 [wandb_init.py:_log_setup():308] Logging internal logs to wandb/run-20211017_233721-1ve73uih/logs/debug-internal.log
+2021-10-17 23:37:21,133 INFO    MainThread:36025 [wandb_setup.py:_flush():68] enabling code saving by default
+2021-10-17 23:37:21,134 INFO    MainThread:36025 [wandb_setup.py:_flush():68] setting env: {}
+2021-10-17 23:37:21,134 INFO    MainThread:36025 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2021-10-17 23:37:21,134 WARNING MainThread:36025 [wandb_setup.py:_flush():68] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-17 23:37:21,134 INFO    MainThread:36025 [wandb_setup.py:_flush():68] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f9d16373550>
+2021-10-17 23:37:21,134 INFO    MainThread:36025 [wandb_run.py:finish():864] finishing run Car-Object-Detection-V7-Learning-Detectron2-V2/16xcrrl7
